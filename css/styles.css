@@ -1,0 +1,178 @@
+/* THIS IS THE MAIN BODYS ELEMENTS AND CLASSES */
+
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    
+
+}
+
+h2.desc {
+    color: #66bfbf;
+    font-family: 'Neucha', cursive;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+    border-top: dotted #66bfbf 6px;
+    border-bottom: none;
+    border-left: #66bfbf;
+    border-right: #66bfbf;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p {
+    color: #40514e;
+    font-weight: bold;
+    line-height: 2;
+}
+
+/* THIS IS THE TOP-CONTAINERS ELEMENTS AND CLASSES */
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.mountain {
+    position: relative;
+}
+
+/* THIS IS THE MIDDLE-CONTAINER ELEMENTS AND CLASSES */
+.middle-container {
+    margin: 100px 0;
+}
+
+.profile-pic {
+    width: 270px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+
+.coding-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.hobby-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    line-height: 2;
+    
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.conatact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.skill-row {
+    width: 50%;
+    height: 250px;
+    margin: 100px auto 100px auto;
+    text-align: left;  
+}
+
+.btn {
+    background: #1594e8;
+    background-image: -webkit-linear-gradient(top, #1594e8, #34566b);
+    background-image: -moz-linear-gradient(top, #1594e8, #34566b);
+    background-image: -ms-linear-gradient(top, #1594e8, #34566b);
+    background-image: -o-linear-gradient(top, #1594e8, #34566b);
+    background-image: linear-gradient(to bottom, #1594e8, #34566b);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #34566b;
+    background-image: -webkit-linear-gradient(top, #34566b, #1594e8);
+    background-image: -moz-linear-gradient(top, #34566b, #1594e8);
+    background-image: -ms-linear-gradient(top, #34566b, #1594e8);
+    background-image: -o-linear-gradient(top, #34566b, #1594e8);
+    background-image: linear-gradient(to bottom, #34566b, #1594e8);
+    text-decoration: none;
+  }
+
+/* THIS IS THE BOTTOM-CONTAINERS ELEMENTS AND CLASSES */
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;    
+}
+
+.copyright {
+    color: rgb(208, 245, 245);
+    font-size: .75rem;
+    padding: 20px 0px;
+}
+
+a {
+    color: rgb(9, 12, 240);
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(119, 147, 241);
+}
+
